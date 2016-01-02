@@ -48,5 +48,15 @@ module.exports = function () {
           .to.equal(m);
       });
     });
+
+    it('should not stop yielding values if no max is given', function () {
+      const multsOf3 = multiples(3)();
+
+      for (let i = 3; i < 1000000; i += 3) {
+        expect(multsOf3.next()
+            .value)
+          .to.equal(i);
+      }
+    });
   });
 };
