@@ -1,0 +1,26 @@
+{
+  "name": "my-utils",
+  "version": "1.0.0",
+  "description": "My own utility collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcnr/my-utils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "Norman Dela Cruz",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dcnr/my-utils/issues"
+  },
+  "homepage": "https://github.com/dcnr/my-utils#readme",
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.4.1"
+  }
+}
